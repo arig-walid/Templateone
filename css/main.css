@@ -1,0 +1,41 @@
+/* glopal styling */
+* {
+box-sizing: border-box;   
+
+}
+body {
+    font-family:"work sans", sans-serif;
+}
+ /* end glopal styling*************************************************************************************** */
+
+  /* @media  */
+
+  /*small screens*/
+@media( min-width: 768px){
+    .container{
+        width: 750px;
+    }
+} 
+/*med screens*/
+@media( min-width: 992px){
+    .container{
+        width: 970px;
+    }
+}
+/*large screens*/
+@media( min-width: 1200px){
+    .container{
+        width: 1170px;
+    }
+}
+  /* @media ************************************************************************************************  */
+
+  /* biggest container styling  */
+.container {
+ padding-left: 15px;
+ padding-right: 15px;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+/* end biggest container styling **************************************************************************** */
