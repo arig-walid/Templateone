@@ -26,6 +26,9 @@ letter-spacing: -3px;
 box-sizing: border-box;   
 
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family:"work sans", sans-serif;
 }
